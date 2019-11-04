@@ -1,7 +1,7 @@
 console.log("hello world...");
 let userSearch = document.querySelector(".form_control");
 console.log(userSearch);
- const url = "http://localhost:5000/about";
+ const url = "/about";
 let form = document.querySelector(".form");
 form.addEventListener("submit", e => {
   e.preventDefault();
