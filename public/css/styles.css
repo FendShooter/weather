@@ -1,0 +1,86 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.main {
+  flex: 1 0 0; }
+
+.footer {
+  flex: 0 0 60px;
+  background: #212f46;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  background: #4079af;
+  color: #cecece;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+
+.lead {
+  font-size: 1.8rem;
+  width: 750px;
+  line-height: 1.8; }
+
+.big {
+  font-size: 1.8rem;
+  width: 950px;
+  line-height: 1.8; }
+
+.navbar {
+  background: #0e3a6b;
+  font-size: 1.8rem; }
+  .navbar_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+.list_item {
+  padding: 1rem 3rem;
+  transition: all 1s ease-in; }
+  .list_item:hover {
+    background: black;
+    cursor: pointer; }
+
+.form_group {
+  width: 790px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center; }
+.form_control {
+  flex: 1;
+  padding: 2rem;
+  border-radius: 10px 0  0 10px;
+  border: none;
+  outline: none; }
+
+.btn {
+  background: #5a5a5a;
+  padding: 2rem;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  color: white;
+  font-weight: bold; }
+
+.red {
+  background: pink;
+  color: red;
+  padding: 1.5rem; }
+
+.cadre {
+  color: red; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=styles.css.map */
